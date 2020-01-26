@@ -1,0 +1,408 @@
+1
+00:00:05,081 --> 00:00:10,158
+you work at<font color="#E5E5E5"> the college library you're</font>
+
+2
+00:00:09,018 --> 00:00:15,707
+in the middle of<font color="#E5E5E5"> a quiet afternoon</font><font color="#CCCCCC"> when</font>
+
+3
+00:00:11,058 --> 00:00:17,067
+suddenly<font color="#E5E5E5"> a shipment of</font><font color="#CCCCCC"> 1,280 different</font>
+
+4
+00:00:15,869 --> 00:00:20,630
+books arrives<font color="#E5E5E5"> the books have been</font>
+
+5
+00:00:18,048 --> 00:00:22,131
+dropped off in one long straight line
+
+6
+00:00:20,063 --> 00:00:26,091
+but they're all<font color="#CCCCCC"> out of order and the</font>
+
+7
+00:00:23,031 --> 00:00:28,083
+automatic sorting<font color="#CCCCCC"> system is broken</font><font color="#E5E5E5"> to</font>
+
+8
+00:00:26,091 --> 00:00:30,123
+make matters worse<font color="#E5E5E5"> classes</font><font color="#CCCCCC"> start</font>
+
+9
+00:00:28,083 --> 00:00:32,142
+tomorrow<font color="#E5E5E5"> which means that first thing in</font>
+
+10
+00:00:31,023 --> 00:00:36,512
+<font color="#CCCCCC">the morning students</font><font color="#E5E5E5"> will show up in</font>
+
+11
+00:00:33,042 --> 00:00:39,078
+<font color="#E5E5E5">droves looking for these books how can</font>
+
+12
+00:00:36,719 --> 00:00:41,771
+you get them all sorted in time one way
+
+13
+00:00:39,078 --> 00:00:44,085
+would be<font color="#CCCCCC"> to start at one end of</font><font color="#E5E5E5"> the line</font>
+
+14
+00:00:42,239 --> 00:00:46,328
+<font color="#E5E5E5">with the first pair of books if the</font>
+
+15
+00:00:44,085 --> 00:00:49,085
+first two books are in<font color="#E5E5E5"> order then leave</font>
+
+16
+00:00:47,129 --> 00:00:52,195
+them as they<font color="#CCCCCC"> are</font><font color="#E5E5E5"> otherwise swap them</font>
+
+17
+00:00:49,085 --> 00:00:55,184
+then look at the second and<font color="#E5E5E5"> third books</font>
+
+18
+00:00:52,789 --> 00:00:57,821
+<font color="#E5E5E5">repeat the process and continue</font><font color="#CCCCCC"> until</font>
+
+19
+00:00:55,949 --> 00:01:00,030
+you reach the<font color="#CCCCCC"> end</font><font color="#E5E5E5"> of the line at some</font>
+
+20
+00:00:58,109 --> 00:01:02,141
+point you'll come across the<font color="#E5E5E5"> book that</font>
+
+21
+00:01:00,003 --> 00:01:05,022
+should<font color="#E5E5E5"> be last and keep swapping it with</font>
+
+22
+00:01:02,429 --> 00:01:07,560
+<font color="#E5E5E5">every subsequent book moving it down the</font>
+
+23
+00:01:05,022 --> 00:01:10,071
+line<font color="#CCCCCC"> until</font><font color="#E5E5E5"> it reaches the</font><font color="#CCCCCC"> end</font><font color="#E5E5E5"> where it</font>
+
+24
+00:01:07,056 --> 00:01:12,069
+belongs<font color="#E5E5E5"> then start from the beginning</font>
+
+25
+00:01:10,071 --> 00:01:13,158
+<font color="#E5E5E5">and repeat the process to get the</font>
+
+26
+00:01:12,069 --> 00:01:16,110
+<font color="#E5E5E5">second-to-last book in its proper place</font>
+
+27
+00:01:14,058 --> 00:01:19,146
+<font color="#E5E5E5">and keep going until all books are</font>
+
+28
+00:01:17,001 --> 00:01:24,048
+<font color="#E5E5E5">sorted this approach is called bubble</font>
+
+29
+00:01:20,046 --> 00:01:26,064
+sort<font color="#E5E5E5"> it's simple but slow you'd make</font><font color="#CCCCCC"> one</font>
+
+30
+00:01:24,057 --> 00:01:29,109
+<font color="#CCCCCC">thousand two hundred and seventy nine</font>
+
+31
+00:01:26,064 --> 00:01:30,156
+comparisons<font color="#E5E5E5"> in the first round then one</font>
+
+32
+00:01:30,009 --> 00:01:34,041
+thousand two hundred<font color="#E5E5E5"> and seventy eight</font>
+
+33
+00:01:31,056 --> 00:01:36,084
+<font color="#E5E5E5">and so on adding up to eight hundred</font>
+
+34
+00:01:34,041 --> 00:01:40,053
+eighteen thousand<font color="#CCCCCC"> five hundred</font><font color="#E5E5E5"> and sixty</font>
+
+35
+00:01:36,084 --> 00:01:42,155
+<font color="#CCCCCC">comparisons if each took just one second</font>
+
+36
+00:01:40,053 --> 00:01:45,129
+this process would<font color="#CCCCCC"> take over nine days a</font>
+
+37
+00:01:43,055 --> 00:01:48,057
+second strategy<font color="#E5E5E5"> would be to start by</font>
+
+38
+00:01:46,029 --> 00:01:50,121
+sorting just the first two books then
+
+39
+00:01:48,075 --> 00:01:53,082
+take the third book and compare it with
+
+40
+00:01:51,021 --> 00:01:56,046
+<font color="#E5E5E5">the book in the second spot</font><font color="#CCCCCC"> if it</font>
+
+41
+00:01:53,082 --> 00:01:57,153
+belongs<font color="#E5E5E5"> before the second book swap them</font>
+
+42
+00:01:56,046 --> 00:02:00,087
+then compare<font color="#CCCCCC"> it with the book</font><font color="#E5E5E5"> in the</font>
+
+43
+00:01:58,053 --> 00:02:02,117
+first<font color="#CCCCCC"> spot and swap again if needed</font>
+
+44
+00:02:00,087 --> 00:02:05,139
+now you've sorted<font color="#E5E5E5"> the first three books</font>
+
+45
+00:02:03,017 --> 00:02:08,100
+<font color="#E5E5E5">keep adding one book at a time to this</font>
+
+46
+00:02:06,039 --> 00:02:10,134
+sorted sub line comparing and swapping
+
+47
+00:02:09,000 --> 00:02:13,092
+<font color="#E5E5E5">the new book with the one before it</font>
+
+48
+00:02:11,034 --> 00:02:16,038
+until it's correctly<font color="#E5E5E5"> placed among the</font>
+
+49
+00:02:13,092 --> 00:02:18,111
+<font color="#E5E5E5">books sorted so far this is called</font>
+
+50
+00:02:16,038 --> 00:02:21,042
+<font color="#E5E5E5">insertion sort unlike bubble sort</font>
+
+51
+00:02:19,011 --> 00:02:24,039
+it usually<font color="#CCCCCC"> doesn't require comparing</font>
+
+52
+00:02:21,042 --> 00:02:26,073
+every pair<font color="#CCCCCC"> of books</font><font color="#E5E5E5"> on average we'd</font>
+
+53
+00:02:24,039 --> 00:02:28,065
+expect<font color="#E5E5E5"> to only need to compare each book</font>
+
+54
+00:02:26,073 --> 00:02:30,120
+<font color="#E5E5E5">to half of the books that came before it</font>
+
+55
+00:02:28,065 --> 00:02:33,066
+<font color="#E5E5E5">in that case the total</font><font color="#CCCCCC"> number of</font>
+
+56
+00:02:31,002 --> 00:02:35,004
+<font color="#E5E5E5">comparisons would be four hundred</font><font color="#CCCCCC"> and</font>
+
+57
+00:02:33,075 --> 00:02:37,131
+nine thousand<font color="#E5E5E5"> two hundred and eighty</font>
+
+58
+00:02:35,004 --> 00:02:40,080
+taking<font color="#CCCCCC"> almost</font><font color="#E5E5E5"> five days you're still</font>
+
+59
+00:02:38,031 --> 00:02:43,106
+doing way<font color="#E5E5E5"> too many comparisons</font><font color="#CCCCCC"> here's</font><font color="#E5E5E5"> a</font>
+
+60
+00:02:41,016 --> 00:02:47,043
+<font color="#E5E5E5">better idea first pick a random book</font>
+
+61
+00:02:44,006 --> 00:02:51,042
+call it<font color="#E5E5E5"> the partition and compare it to</font>
+
+62
+00:02:47,043 --> 00:02:52,125
+every<font color="#E5E5E5"> other book then divide the line</font><font color="#CCCCCC"> by</font>
+
+63
+00:02:51,042 --> 00:02:55,083
+placing all<font color="#CCCCCC"> the books</font><font color="#E5E5E5"> that come before</font>
+
+64
+00:02:53,025 --> 00:02:57,074
+the<font color="#E5E5E5"> partition on its left and all the</font>
+
+65
+00:02:55,083 --> 00:02:59,160
+<font color="#E5E5E5">ones that come after it on its right</font>
+
+66
+00:02:57,074 --> 00:03:02,109
+you've just saved loads of time by not
+
+67
+00:03:00,006 --> 00:03:04,065
+<font color="#CCCCCC">having to</font><font color="#E5E5E5"> compare any of the books on</font>
+
+68
+00:03:03,009 --> 00:03:06,036
+the left<font color="#E5E5E5"> to any of the ones on the right</font>
+
+69
+00:03:05,019 --> 00:03:08,094
+<font color="#CCCCCC">ever</font><font color="#E5E5E5"> again</font>
+
+70
+00:03:06,036 --> 00:03:10,119
+now looking only at the<font color="#E5E5E5"> books on the</font>
+
+71
+00:03:08,094 --> 00:03:12,102
+left you<font color="#E5E5E5"> can again pick a random</font>
+
+72
+00:03:11,019 --> 00:03:15,788
+partition book<font color="#E5E5E5"> and separate those books</font>
+
+73
+00:03:13,074 --> 00:03:17,543
+<font color="#E5E5E5">that come before it from those that come</font>
+
+74
+00:03:15,959 --> 00:03:19,964
+after<font color="#CCCCCC"> it you can keep</font><font color="#E5E5E5"> creating sub</font>
+
+75
+00:03:18,209 --> 00:03:23,070
+partitions like this until<font color="#CCCCCC"> you</font><font color="#E5E5E5"> have a</font>
+
+76
+00:03:20,459 --> 00:03:25,080
+bunch of<font color="#E5E5E5"> small sub lines each of which</font>
+
+77
+00:03:23,007 --> 00:03:27,105
+you'd sort quickly<font color="#E5E5E5"> using another</font>
+
+78
+00:03:25,008 --> 00:03:30,033
+strategy<font color="#E5E5E5"> like insertion sort</font><font color="#CCCCCC"> each round</font>
+
+79
+00:03:28,005 --> 00:03:31,068
+of partitioning requires about one
+
+80
+00:03:30,033 --> 00:03:34,047
+thousand two hundred and<font color="#E5E5E5"> eighty</font>
+
+81
+00:03:31,068 --> 00:03:36,093
+comparisons<font color="#E5E5E5"> if your partitions are</font>
+
+82
+00:03:34,047 --> 00:03:39,108
+pretty balanced dividing<font color="#E5E5E5"> the books into</font>
+
+83
+00:03:36,093 --> 00:03:41,112
+128 sub lines of<font color="#E5E5E5"> ten would take about</font>
+
+84
+00:03:40,008 --> 00:03:44,016
+seven rounds<font color="#E5E5E5"> or eight thousand nine</font>
+
+85
+00:03:42,012 --> 00:03:46,107
+<font color="#CCCCCC">hundred and sixty Seconds sorting these</font>
+
+86
+00:03:44,088 --> 00:03:49,089
+sub lines would add about<font color="#CCCCCC"> twenty-two</font>
+
+87
+00:03:47,007 --> 00:03:52,044
+seconds each<font color="#CCCCCC"> all</font><font color="#E5E5E5"> in all this method</font>
+
+88
+00:03:49,098 --> 00:03:53,106
+known as quicksort<font color="#E5E5E5"> could sort the books</font>
+
+89
+00:03:52,044 --> 00:03:56,055
+<font color="#E5E5E5">in under three</font><font color="#CCCCCC"> and a half hours</font><font color="#E5E5E5"> but</font>
+
+90
+00:03:54,078 --> 00:03:58,092
+<font color="#E5E5E5">there's a catch</font><font color="#CCCCCC"> your partitions could</font>
+
+91
+00:03:56,055 --> 00:04:01,110
+end up lopsided saving no time at all
+
+92
+00:03:58,092 --> 00:04:03,096
+luckily<font color="#E5E5E5"> this rarely happens that's why</font>
+
+93
+00:04:02,001 --> 00:04:06,029
+quicksort<font color="#E5E5E5"> is one of the most efficient</font>
+
+94
+00:04:04,032 --> 00:04:08,073
+strategies used by<font color="#E5E5E5"> programmers today</font>
+
+95
+00:04:06,038 --> 00:04:10,113
+they<font color="#E5E5E5"> use it for things like sorting</font>
+
+96
+00:04:08,073 --> 00:04:12,078
+items in an online<font color="#E5E5E5"> store by price</font><font color="#CCCCCC"> or</font>
+
+97
+00:04:11,013 --> 00:04:15,122
+creating a list of<font color="#E5E5E5"> all the gas stations</font>
+
+98
+00:04:12,078 --> 00:04:17,567
+<font color="#CCCCCC">close to a</font><font color="#E5E5E5"> given location sorted by</font>
+
+99
+00:04:15,239 --> 00:04:19,640
+distance in your case<font color="#E5E5E5"> you're done quick</font>
+
+100
+00:04:18,269 --> 00:04:21,840
+sorting with time to spare
+
+101
+00:04:19,064 --> 00:04:23,443
+just another high-stakes day in the
+
+102
+00:04:21,084 --> 00:04:23,263
+library
+

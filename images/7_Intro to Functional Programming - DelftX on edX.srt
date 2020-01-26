@@ -1,0 +1,166 @@
+1
+00:00:00,000 --> 00:00:05,030
+
+
+2
+00:00:05,030 --> 00:00:07,790
+PROFESSOR: In 1687, Sir
+Isaac Newton invented
+
+3
+00:00:07,790 --> 00:00:11,710
+calculus, which became the
+mathematical basis for physics.
+
+4
+00:00:11,710 --> 00:00:14,920
+In the context of physics and
+science, functions typically
+
+5
+00:00:14,919 --> 00:00:18,259
+map numeric arguments
+to numeric results,
+
+6
+00:00:18,260 --> 00:00:22,100
+but more advanced operations, like
+differentiation and integration,
+
+7
+00:00:22,100 --> 00:00:25,490
+are functions that
+manipulate other functions.
+
+8
+00:00:25,489 --> 00:00:28,679
+Instead of numbers, arguments
+and results of functions
+
+9
+00:00:28,679 --> 00:00:30,809
+are themselves functions.
+
+10
+00:00:30,809 --> 00:00:35,399
+In 1941, Alonzo Church used this
+trick of higher order functions
+
+11
+00:00:35,399 --> 00:00:39,399
+to invent the Lambda Calculus, which
+via the church [? theory ?] thesis,
+
+12
+00:00:39,399 --> 00:00:42,500
+became the mathematical
+basis for computer science.
+
+13
+00:00:42,500 --> 00:00:45,359
+Church was the world's
+first functional hacker.
+
+14
+00:00:45,359 --> 00:00:50,810
+And showed how all of mathematics can
+be modeled using just pure functions.
+
+15
+00:00:50,810 --> 00:00:54,080
+A few decades later
+in 1960, John McCarthy
+
+16
+00:00:54,079 --> 00:00:57,739
+used the Lambda calculus to create
+Lisp, one of the world's first
+
+17
+00:00:57,740 --> 00:01:00,310
+and finest computer
+programming languages.
+
+18
+00:01:00,310 --> 00:01:03,980
+Lisp pioneered the idea of
+to rethink functions as data.
+
+19
+00:01:03,979 --> 00:01:07,849
+The dual of Church's model
+of data as functions.
+
+20
+00:01:07,849 --> 00:01:12,924
+Fast forward to 2014, and we see that
+all modern programming languages such
+
+21
+00:01:12,924 --> 00:01:19,159
+as Haskell, PHP, C#, C++, JavaScript,
+and even Java now support Lambda
+
+22
+00:01:19,159 --> 00:01:21,989
+expressions as first class citizens.
+
+23
+00:01:21,989 --> 00:01:25,309
+So for giants Facebook,
+Twitter, Netflix, and Google,
+
+24
+00:01:25,310 --> 00:01:27,920
+are all powered by
+functional programming.
+
+25
+00:01:27,920 --> 00:01:30,650
+Big data processing
+techniques like MapReduce
+
+26
+00:01:30,650 --> 00:01:34,330
+come straight out of the
+functional programmers PlayBook.
+
+27
+00:01:34,329 --> 00:01:37,060
+Amongst all languages
+that support closures,
+
+28
+00:01:37,060 --> 00:01:41,530
+Haskell remains most faithful to
+Church's original Lambda calculus,
+
+29
+00:01:41,530 --> 00:01:44,219
+and therefore, Haskell
+is the ideal language
+
+30
+00:01:44,219 --> 00:01:48,359
+to teach you how to
+program using functions.
+
+31
+00:01:48,359 --> 00:01:50,989
+As a serious practitioner
+or student, you
+
+32
+00:01:50,989 --> 00:01:55,019
+don't have 300 years to make the
+journey from Newton to Java 8,
+
+33
+00:01:55,019 --> 00:01:58,560
+but if you take this MOOC, we'll
+get you up to speed in no time.
+
+34
+00:01:58,560 --> 00:02:01,219
+See you soon in cyberspace.
+
